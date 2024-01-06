@@ -1,3 +1,8 @@
 The code is being written in early 2024. Model used is facenet 512, euclidean metric and retinaface backend, since their combination yielded to the most accurate results. If you want to use the model for detecting more cases, even if theyre false positives, I suggest using opencv instead of deepface to detect faces and use the yolov7 backend.
 
 If any better/more accurate libraries/models/metrics come in the near future, I'll add them here for reference.
+
+My Use case was: 
+1. Detect fraud cases for the client using custom object threat detection model (which also I coded for them) and then detecting the faces of people in the image and checking if they're in their database, and if yes, then printing their details.
+2. Detect people in database from any video, can be used for criminal identification
+
