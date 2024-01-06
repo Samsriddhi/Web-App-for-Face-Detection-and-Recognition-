@@ -1,0 +1,35 @@
+/* Dark Mode with Black Background */
+.bg-dark {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/* Dark Mode with Gradient Background */
+.bg-gradient {
+    background: linear-gradient(45deg, #333, #555);
+    color: #fff !important;
+}
+
+/* Additional Styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#resultContainer {
+    margin-top: 20px;
+}
+
+#resultImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-file-label {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
