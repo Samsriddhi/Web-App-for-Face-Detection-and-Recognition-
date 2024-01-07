@@ -13,11 +13,22 @@ Output:
 ![Screenshot 2024-01-05 221515](https://github.com/Samsriddhi/Web-App-for-Face-Detection-and-Recognition-/assets/154321347/ac0a2d7c-0086-43f2-bf22-6ae87566660b)
 
 
+
+
+
+
 2) Upload a video and the app draws box around detected face(S) and annotates it with the name of the person in it if the face matches any of those in the database(which contains their name data in the filename itself) in every frame
 
-Input:
+Input: ![Screenshot 2024-01-07 224654](https://github.com/Samsriddhi/Web-App-for-Face-Detection-and-Recognition-/assets/154321347/64468833-067e-4b05-8bc0-79abb294b901)
 
-Output:
+
+
+Output: ![Screenshot 2024-01-07 224721](https://github.com/Samsriddhi/Web-App-for-Face-Detection-and-Recognition-/assets/154321347/94caee50-2090-4115-bc27-da7ed59dd9cd)
+
+
+
+
+
 
 
 Working: the uploaded file is compared to database Celebrity_Faces_Dataset and returns if any matched face is same.
